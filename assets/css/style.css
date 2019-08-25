@@ -1,0 +1,28 @@
+body{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+}
+h1, h2, h3, h4{
+    text-align: center;
+}
+.main{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    min-height: 600px;
+}
+#question{
+    margin-top: 50px;
+}
+#answers{
+    margin-top: 50px;
+}
+.btn-outline-secondary{
+    color: white;
+}
+.correct{
+    background-color: green;
+}
+.wrong{
+    background-color: red;
+}
