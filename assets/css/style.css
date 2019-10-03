@@ -20,9 +20,11 @@ h1, h2, h3, h4{
 .btn-outline-secondary{
     color: white;
 }
-.correct{
-    background-color: green;
+.btn-outline-secondary:hover{
+    background-color: black;
 }
-.wrong{
-    background-color: red;
+@media only screen and (max-width: 600px) {
+img{
+    max-width: 100%;
 }
+  }
